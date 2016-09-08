@@ -3,5 +3,5 @@ import { render } from 'react-dom'
 import Main from './lib/main'
 
 render((
-  <Main name=""/>
+  <Main name="Credit Card"/>
 ), document.getElementById('app'))
