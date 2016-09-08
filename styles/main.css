@@ -7,5 +7,106 @@
 }
 
 html {
-  
+  background-color: rgb(243, 243, 243);
+  text-align: center;
+}
+
+.cc__container {
+  display: inline-block;
+  padding-top: 30px;
+  width: 600px;
+}
+
+.cc__form {
+  background-color: rgb(220, 220, 220);
+  border: 1px solid black;
+  border-radius: 20px;
+  display: inline-block;
+  height: 284px;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  width: 450px;
+}
+
+.your {
+  color: rgb(158, 158, 158);
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  position: absolute;
+  margin: 0;
+}
+
+.bank {
+  font-weight: bolder;
+}
+
+
+/* all of the input field styling */
+.cc__inputs {
+  font-size: 20px;
+  height: 30px;
+  outline: 0;
+  position: absolute;
+}
+
+.cc__number {
+  display: block;
+  letter-spacing: 5px;
+  margin: auto;
+  padding: 0 10px;
+  top: 142px;
+  width: 408px;
+}
+
+.cvv-expContainer {
+  display: block;
+  height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 182px;
+  width: 100%
+}
+
+.goodThru {
+  color: rgb(158, 158, 158);
+  display: inline-block;
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.cc__expire--month {
+  display: inline-block;
+  height: 30px;
+  margin-left: 10px;
+  width: 48px;
+}
+
+.cc__expire--year {
+  height: 30px;
+  left: 95px;
+  margin-left: 10px;
+  width: 48px;
+}
+
+.cc__cvv {
+  height: 30px;
+  left: 163px;
+  width: 48px;
+}
+
+.cc__name {
+  left: 20px;
+  top: 222px;
+  width: 211px;
+}
+
+.cc__logo {
+  height: 70px;
+  position: absolute;
+  right: 20px;
+  top: 182px;
 }

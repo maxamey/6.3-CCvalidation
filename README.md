@@ -6,10 +6,10 @@
   - [x] Credit card has an expiration date input
   - [x] Credit card has a cvv input
   - [x] Credit card has a name input
-- [] Make the structure look like a credit card
-  - [] border has rounded edges
-  - [] inputs are in the right places
-  - [] space (for now) for the future logo
+- [x] Make the structure look like a credit card
+  - [x] border has rounded edges
+  - [x] inputs are in the right places
+  - [x] space for the logo
 
 
 
