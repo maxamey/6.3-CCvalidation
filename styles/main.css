@@ -108,6 +108,10 @@ html {
   width: 211px;
 }
 
+.cc__name--invalid {
+  border: 2px solid red;
+}
+
 .cc__logo {
   height: 70px;
   position: absolute;
