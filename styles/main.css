@@ -82,14 +82,14 @@ html {
   margin: 0;
 }
 
-.cc__expire--month {
+.cc__expireMonth {
   display: inline-block;
   height: 30px;
   margin-left: 10px;
   width: 48px;
 }
 
-.cc__expire--year {
+.cc__expireYear {
   height: 30px;
   left: 95px;
   margin-left: 10px;
