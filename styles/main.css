@@ -89,6 +89,10 @@ html {
   width: 48px;
 }
 
+.cc__expireMonth--invalid {
+  border: 2px solid red;
+}
+
 .cc__expireYear {
   height: 30px;
   left: 95px;

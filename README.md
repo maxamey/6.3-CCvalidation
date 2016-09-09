@@ -20,13 +20,13 @@
     - [x] toggle class for cc number if valid
     - [x] set state back to false when numbers are
           invalid again
-  - [] Validate cc month input
+  - [x] Validate cc month input
     - [x] set state for cc month input
     - [x] listen for input value changes
     - [x] check if current input value is a correct
          month number
-    - [] toggle class for cc month if valid
-    - [] set state back to false when numbers are
+    - [x] toggle class for cc month if valid
+    - [x] set state back to false when numbers are
          invalid again
   - [] Validate cc year input
   - [] Validate cc cvv input
@@ -36,7 +36,7 @@
     - [x] use validator method to see if current
          input value is a correct string length
     - [x] toggle class for cc name if validator
-    - []x set state back to false when name input is
+    - [x] set state back to false when name input is
          invalid again
 
 ## Development
