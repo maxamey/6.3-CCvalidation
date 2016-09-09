@@ -60,6 +60,10 @@ html {
   width: 408px;
 }
 
+.cc__number--invalid {
+  border: 2px solid red;
+}
+
 .cvv-expContainer {
   display: block;
   height: 30px;
