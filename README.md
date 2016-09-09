@@ -10,7 +10,7 @@
   - [x] border has rounded edges
   - [x] inputs are in the right places
   - [x] space for the logo
-- [] If any input (number, date, cvv, and name) is not valid
+- [x] If any input (number, date, cvv, and name) is not valid
      then the border of said input should be red
   - [x] Validate cc numbers input
     - [x] set state for cc number
@@ -29,7 +29,7 @@
     - [x] set state back to false when numbers are
          invalid again
   - [x] Validate cc year input
-  - [] Validate cc cvv input
+  - [x] Validate cc cvv input
   - [x] Validate cc name input
     - [x] set state for cc name
     - [x] listen for input value changes
@@ -38,6 +38,7 @@
     - [x] toggle class for cc name if validator
     - [x] set state back to false when name input is
          invalid again
+
 
 ## Development
   - `$ npm install -g webpack`

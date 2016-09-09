@@ -19,8 +19,9 @@ html {
 
 .cc__form {
   background-color: rgb(220, 220, 220);
-  border: 1px solid black;
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 20px;
+  box-shadow: 0px 2px 12px 2px rgba(252,98,93,1);
   display: inline-block;
   height: 284px;
   padding: 20px;
@@ -30,8 +31,12 @@ html {
   width: 450px;
 }
 
+.cc__form--valid {
+  box-shadow: 0px 2px 12px 2px rgba(84,204,116,1);
+}
+
 .your {
-  color: rgb(158, 158, 158);
+  color: rgb(130, 130, 130);
   font-family: Helvetica, sans-serif;
   font-weight: lighter;
   position: absolute;
@@ -61,7 +66,7 @@ html {
 }
 
 .cc__number--invalid {
-  border: 2px solid red;
+  border: 2px solid rgb(252, 98, 93);
 }
 
 .cvv-expContainer {
@@ -90,7 +95,7 @@ html {
 }
 
 .cc__expireMonth--invalid {
-  border: 2px solid red;
+  border: 2px solid rgb(252, 98, 93);
 }
 
 .cc__expireYear {
@@ -101,13 +106,17 @@ html {
 }
 
 .cc__expireYear--invalid {
-  border: 2px solid red;
+  border: 2px solid rgb(252, 98, 93);
 }
 
 .cc__cvv {
   height: 30px;
   left: 163px;
   width: 48px;
+}
+
+.cc__cvv--invalid {
+  border: 2px solid rgb(252, 98, 93);
 }
 
 .cc__name {
@@ -117,7 +126,7 @@ html {
 }
 
 .cc__name--invalid {
-  border: 2px solid red;
+  border: 2px solid rgb(252, 98, 93);
 }
 
 .cc__logo {
