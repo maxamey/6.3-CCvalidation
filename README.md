@@ -28,9 +28,9 @@
     - [x] toggle class for cc month if valid
     - [x] set state back to false when numbers are
          invalid again
-  - [] Validate cc year input
+  - [x] Validate cc year input
   - [] Validate cc cvv input
-  - [] Validate cc name input
+  - [x] Validate cc name input
     - [x] set state for cc name
     - [x] listen for input value changes
     - [x] use validator method to see if current
